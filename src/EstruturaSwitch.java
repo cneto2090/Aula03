@@ -13,6 +13,24 @@ public class EstruturaSwitch {
 	
 		//Aqui precisamos de uma estrutura para validar a opção inserida.
 
+		switch (opcao) {
+		case 1: 
+			System.out.println ("Professional Highlevel = boss");
+			break;
+		case 2:
+			System.out.println ("Professional HighStyle = king");
+			break;
+		case 3:
+		    System.out.println("Professional HighFeeling");
+		break;
+		default:
+			System.out.println("Professional Avarage");
+		}
+		
+		
+		
+		
+		
 		leitor.close();
 
 	}
